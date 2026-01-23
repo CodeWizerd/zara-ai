@@ -63,7 +63,7 @@ const systemMessage = {
 
       setmessages((prev) => [...prev, { role: "assistant", content: reply }]);
 
-      console.log("AI:", reply);
+      
 
       setclickval(!true);
     } catch (error) {
@@ -103,7 +103,7 @@ toggle()
 function dateTime(){
   const date=new Date()
   setTime({hours:date.getHours(),minutes:date.getMinutes()})
-  console.log(Time.hours)
+  
 }
 // dateTime()
 
